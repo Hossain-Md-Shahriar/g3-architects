@@ -154,7 +154,7 @@ main {
     max-width: 450px;
 }
 
-.feature-content > .section-description {
+.feature-content>.section-description {
     margin-bottom: 2.8rem;
 }
 
@@ -277,6 +277,24 @@ main {
     justify-content: space-between;
 }
 
+/* ========== Footer section ========== */
+footer {
+    width: 80%;
+    margin: auto;
+    border-radius: 8px;
+    background: #FFF4E7;
+    padding-inline: 4rem;
+    text-align: center;
+    margin-bottom: 160px;
+}
+
+footer p {
+    font-size: 1.25rem;
+    color: var(--dark-2);
+    padding-block: 2rem;
+    line-height: 35px;
+}
+
 
 /* ========== Media Query ========== */
 
@@ -293,12 +311,14 @@ main {
     .feature {
         padding: 32px;
     }
+
     .feature-image {
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 30px;
     }
+
     .feature-badge {
         position: static;
     }
@@ -306,6 +326,7 @@ main {
     .facts {
         padding-inline: 2rem;
     }
+
     .facts-card-container {
         grid-template-columns: repeat(2, 230px);
         justify-content: center;
@@ -313,6 +334,10 @@ main {
 
     .sponsor {
         margin-inline: 2rem;
+    }
+
+    footer {
+        width: 90%;
     }
 }
 
@@ -322,6 +347,7 @@ main {
     header {
         padding-inline: 50px;
     }
+
     nav {
         display: flex;
         flex-direction: column;
@@ -332,6 +358,7 @@ main {
     .feature {
         flex-direction: column;
     }
+
     .team-info {
         text-align: center;
     }
@@ -339,12 +366,15 @@ main {
     .feature {
         padding-inline: 80px;
     }
+
     .feature-content {
         max-width: 650px;
     }
+
     .feature-image img {
         width: 90%;
     }
+
     .feature-badge {
         position: absolute;
         bottom: 0;
@@ -369,6 +399,7 @@ main {
     header {
         padding-inline: 15px;
     }
+
     .list {
         justify-content: space-between;
     }
@@ -384,6 +415,7 @@ main {
     .feature {
         padding-inline: 2rem;
     }
+
     .feature-image img {
         width: 100%;
     }
